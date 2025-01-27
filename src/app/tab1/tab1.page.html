@@ -28,6 +28,7 @@
     <ion-button id="favorites" class="radio-btn" (click)="toggleButton('favorites')">Favorites</ion-button>
     <ion-button id="not-read" class="radio-btn" (click)="toggleButton('not-read')">Not Read</ion-button>
   </ion-buttons>
+  <app-floating-button></app-floating-button>
 
   <app-item-card
     [title]="'Custom Title'"
@@ -35,4 +36,17 @@
     [time]="'10:00 a.m.'"
     [badge]="15">
   </app-item-card>
+
+  <app-item-card
+  title="Item with Icon"
+  description="This is an item with an optional icon."
+  time="4:00 PM"
+  badge="15"
+  icon="star"
+></app-item-card>
+<app-item-card
+title="Item with Icon"
+description="This is an item with an optional icon."
+icon="star"
+></app-item-card>
 </ion-content>

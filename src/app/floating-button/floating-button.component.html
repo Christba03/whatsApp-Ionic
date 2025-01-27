@@ -1,3 +1,12 @@
-<p>
-  floating-button works!
-</p>
+<ion-fab horizontal="end" slot="fixed" style="top: 86%;">
+  <ion-fab-button (click)="toggleIcon()">
+    <ion-icon [name]="buttonIcon"></ion-icon>  <!-- Dynamically set the icon -->
+  </ion-fab-button>
+</ion-fab>
+
+<!-- Second Button - Positioned 10% higher and smaller -->
+<ion-fab *ngIf="showSecondButton" horizontal="end" slot="fixed" style="top: 80%; transform: scale(0.8);">
+  <ion-fab-button (click)="onSecondButtonClick()">
+    <ion-icon name="add-circle-outline"></ion-icon>  <!-- Example Icon -->
+  </ion-fab-button>
+</ion-fab>

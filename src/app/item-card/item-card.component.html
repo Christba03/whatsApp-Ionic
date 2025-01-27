@@ -8,6 +8,9 @@
   </ion-label>
   <ion-label class="badge-container">
     <h3>{{ time }}</h3>
-    <div><ion-badge slot="end">{{ badge }}</ion-badge></div>
+    <div>
+      <ion-badge *ngIf="badge !== null" slot="end">{{ badge }}</ion-badge>
+      <ion-icon *ngIf="icon" [name]="icon" class="icon" slot="end"></ion-icon>
+    </div>
   </ion-label>
 </ion-item>

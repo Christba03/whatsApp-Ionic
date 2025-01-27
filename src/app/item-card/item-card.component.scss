@@ -11,4 +11,10 @@
     ion-badge {
       margin-top: auto; /* Ensures the badge stays at the bottom */
     }
+    
+  }
+
+  .icon {
+    font-size: 20px; /* Adjust size as needed */
+    color: var(--ion-color-primary); /* Use theme color */
   }
