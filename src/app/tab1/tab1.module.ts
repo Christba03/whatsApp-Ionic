@@ -4,8 +4,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Tab1Page } from './tab1.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
-import { ItemCardComponent } from '../item-card/item-card.component';
-import { FloatingButtonComponent } from '../floating-button/floating-button.component'; // Import the component
+import { SharedModule } from '../shared/shared.module';
 
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
@@ -16,8 +15,9 @@ import { Tab1PageRoutingModule } from './tab1-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    Tab1PageRoutingModule
+    Tab1PageRoutingModule,
+    SharedModule
   ],
-  declarations: [Tab1Page,ItemCardComponent,FloatingButtonComponent], // Add the component to declarations
+  declarations: [Tab1Page], // Add the component to declarations
 })
 export class Tab1PageModule {}

@@ -13,7 +13,36 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <app-floating-button></app-floating-button>
 
+
+  <app-item-card
+  [title]="'John Doe'"
+  [description]="'Active 5 minutes ago'"
+  [time]="'5 min'"
+  [badge]="'New'"
+  [hasHistory]="true">
+
+</app-item-card>
+  <ion-item-divider color="light">
+    <ion-label>No vistos</ion-label>
+  </ion-item-divider>
+  <app-item-card
+  [title]="'John Doe'"
+  [description]="'Active 5 minutes ago'"
+  [time]="'5 min'"
+  [badge]="'New'"
+  [hasHistory]="true">
+
+</app-item-card>
+  <ion-item-divider color="light">
+    <ion-label>Vistos</ion-label>
+  </ion-item-divider>
+  <app-item-card
+  [title]="'John Doe'"
+  [description]="'Active 5 minutes ago'"
+  [time]="'5 min'"
+  [icon]="'checkmark-circle'">
+</app-item-card>
 </ion-content>
 
