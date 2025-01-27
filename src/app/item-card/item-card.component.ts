@@ -10,6 +10,7 @@ export class ItemCardComponent {
   @Input() title: string = 'Button Item';
   @Input() description: string = 'Default detail - detail arrow displays on iOS only';
   @Input() time: string | null = null;
-  @Input() badge: string | number  | null   = null; // Allow string or number for flexibility
+  @Input() badge: string | number | null = null; // Allow string or number for flexibility
   @Input() icon: string | null = null; // Optional icon
+  @Input() hasHistory: boolean = false; // Whether the user has a history
 }

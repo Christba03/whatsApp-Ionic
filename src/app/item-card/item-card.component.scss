@@ -1,20 +1,27 @@
 .badge-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end; /* Aligns the badge to the bottom */
-    align-items: flex-end;    /* Ensures the badge is aligned to the right */
-  
-    h3 {
-      margin-bottom: 4px; /* Adds some spacing above the badge */
-    }
-  
-    ion-badge {
-      margin-top: auto; /* Ensures the badge stays at the bottom */
-    }
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Aligns the badge to the bottom */
+  align-items: flex-end;    /* Ensures the badge is aligned to the right */
+
+  h3 {
+    margin-bottom: 4px; /* Adds some spacing above the badge */
   }
 
-  .icon {
-    font-size: 20px; /* Adjust size as needed */
-    color: var(--ion-color-primary); /* Use theme color */
+  ion-badge {
+    margin-top: auto; /* Ensures the badge stays at the bottom */
   }
+}
+
+.icon {
+  font-size: 20px; /* Adjust size as needed */
+  color: var(--ion-color-primary); /* Use theme color */
+}
+
+/* Green border for avatars with history */
+ion-avatar.green-border {
+  border: 2px solid green;
+  border-radius: 50%; /* Ensure the border is circular */
+  padding: 2px; /* Optional: Add some spacing for better aesthetics */
+  box-sizing: border-box; /* Ensure padding doesn't affect size */
+}
