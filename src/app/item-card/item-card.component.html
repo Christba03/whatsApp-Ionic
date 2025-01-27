@@ -1,0 +1,13 @@
+<ion-item [button]="true">
+  <ion-avatar aria-hidden="true" slot="start">
+    <img alt="" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+  </ion-avatar>
+  <ion-label>
+    <h3>{{ title }}</h3>
+    <p>{{ description }}</p>
+  </ion-label>
+  <ion-label class="badge-container">
+    <h3>{{ time }}</h3>
+    <div><ion-badge slot="end">{{ badge }}</ion-badge></div>
+  </ion-label>
+</ion-item>

@@ -1,0 +1,26 @@
+.horizontal-button-group {
+    display: flex;
+    padding: 8px; /* Add padding around the buttons */
+  }
+  
+  .radio-btn {
+    font-size: 11px;
+    padding: 1px 8px; /* Adjust padding to reduce the space inside buttons */
+    border: 2px solid var(--button-border-color); /* Always show a border */
+    border-radius: 12px; /* Round corners */
+    background-color: transparent; /* Transparent background */
+    color: var(--button-text-color); /* Text color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+  }
+  
+  .radio-btn.active {
+    background-color: var(--button-active-bg-color); /* Active background color */
+    color: var(--button-active-text-color); /* Active text color */
+  }
+  
+  .radio-btn:disabled {
+    border: 2px solid var(--button-disabled-border-color); /* Disabled border */
+    background-color: var(--button-disabled-bg-color); /* Disabled background */
+    color: var(--button-disabled-text-color); /* Disabled text */
+  }
+  

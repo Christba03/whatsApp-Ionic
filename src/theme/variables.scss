@@ -1,2 +1,73 @@
-// For information on how to create your own theme, please see:
-// http://ionicframework.com/docs/theming/
+:root {
+	--ion-color-primary: #128C7E; /* WhatsApp green */
+	--ion-color-primary-rgb: 18,140,126;
+	--ion-color-primary-contrast: #ffffff;
+	--ion-color-primary-contrast-rgb: 255,255,255;
+	--ion-color-primary-shade: #107d71;
+	--ion-color-primary-tint: #22a899;
+
+	--ion-color-secondary: #25D366; /* Lighter green for buttons or highlights */
+	--ion-color-secondary-rgb: 37,211,102;
+	--ion-color-secondary-contrast: #ffffff;
+	--ion-color-secondary-contrast-rgb: 255,255,255;
+	--ion-color-secondary-shade: #21be5c;
+	--ion-color-secondary-tint: #3ae57a;
+
+	--ion-color-tertiary: #DCF8C6; /* Chat bubble light green */
+	--ion-color-tertiary-rgb: 220,248,198;
+	--ion-color-tertiary-contrast: #000000;
+	--ion-color-tertiary-contrast-rgb: 0,0,0;
+	--ion-color-tertiary-shade: #c4e4ae;
+	--ion-color-tertiary-tint: #e2fad3;
+
+	--ion-color-success: #34B7F1; /* Blue for links or icons */
+	--ion-color-success-rgb: 52,183,241;
+	--ion-color-success-contrast: #ffffff;
+	--ion-color-success-contrast-rgb: 255,255,255;
+	--ion-color-success-shade: #2fa3d8;
+	--ion-color-success-tint: #49c1f3;
+
+	--ion-color-warning: #FFEB3B; /* Yellow for notifications */
+	--ion-color-warning-rgb: 255,235,59;
+	--ion-color-warning-contrast: #000000;
+	--ion-color-warning-contrast-rgb: 0,0,0;
+	--ion-color-warning-shade: #e0cc34;
+	--ion-color-warning-tint: #ffef57;
+
+	--ion-color-danger: #D32F2F; /* Red for errors */
+	--ion-color-danger-rgb: 211,47,47;
+	--ion-color-danger-contrast: #ffffff;
+	--ion-color-danger-contrast-rgb: 255,255,255;
+	--ion-color-danger-shade: #b92a2a;
+	--ion-color-danger-tint: #dd5151;
+
+	--ion-color-light: #ECE5DD; /* WhatsApp light background */
+	--ion-color-light-rgb: 236,229,221;
+	--ion-color-light-contrast: #000000;
+	--ion-color-light-contrast-rgb: 0,0,0;
+	--ion-color-light-shade: #d1cfc5;
+	--ion-color-light-tint: #f0ebe7;
+
+	--ion-color-medium: #3C3C3C; /* Medium dark for texts */
+	--ion-color-medium-rgb: 60,60,60;
+	--ion-color-medium-contrast: #ffffff;
+	--ion-color-medium-contrast-rgb: 255,255,255;
+	--ion-color-medium-shade: #353535;
+	--ion-color-medium-tint: #505050;
+
+	--ion-color-dark: #1E1E1E; /* Dark background or headers */
+	--ion-color-dark-rgb: 30,30,30;
+	--ion-color-dark-contrast: #ffffff;
+	--ion-color-dark-contrast-rgb: 255,255,255;
+	--ion-color-dark-shade: #1a1a1a;
+	--ion-color-dark-tint: #292929;
+
+
+	--button-border-color: var(--ion-color-primary); /* Primary border color */
+    --button-active-bg-color: var(--ion-color-primary); /* Active background color */
+    --button-active-text-color: var(--ion-color-primary-contrast); /* Active text color */
+    --button-text-color: var(--ion-color-primary); /* Default text color */
+    --button-disabled-border-color: var(--ion-color-medium-shade); /* Disabled border color */
+    --button-disabled-bg-color: var(--ion-color-light); /* Disabled background color */
+    --button-disabled-text-color: var(--ion-color-medium); /* Disabled text color */
+}

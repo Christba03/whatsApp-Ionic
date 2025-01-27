@@ -35,3 +35,33 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+/* Custom Styles */
+ion-header {
+  ion-toolbar {
+    .whatsapp-title {
+      font-weight: bold; /* Makes the text bold */
+      font-size: 20px; /* Adjust font size as needed */
+      color: var(--ion-color-primary); /* Apply primary color */
+      font-family: 'Roboto', sans-serif; /* Optional: Set a font similar to WhatsApp */
+    }
+
+    ion-buttons[slot="end"] {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      ion-button {
+        --padding-start: 0;
+        --padding-end: 0;
+        --background: transparent;
+        --ripple-color: var(--ion-color-primary);
+
+        ion-icon {
+          font-size: 20px;
+          color: var(--ion-color-primary);
+        }
+      }
+    }
+  }
+}

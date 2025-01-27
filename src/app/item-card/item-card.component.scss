@@ -1,0 +1,14 @@
+.badge-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Aligns the badge to the bottom */
+    align-items: flex-end;    /* Ensures the badge is aligned to the right */
+  
+    h3 {
+      margin-bottom: 4px; /* Adds some spacing above the badge */
+    }
+  
+    ion-badge {
+      margin-top: auto; /* Ensures the badge stays at the bottom */
+    }
+  }
